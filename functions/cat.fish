@@ -1,4 +1,4 @@
-function cat --wraps='bat --plain' --wraps='batcat --plain' --wraps='batcat --plain --paging=never' --description 'alias cat batcat --plain --paging=never'
-  batcat --plain --paging=never $argv
+function cat --wraps='batcat --style=plain --pager=none' --wraps='batcat --style=plain --pager=none' --description 'batcat --style=plain --pager=none'
+  batcat --style=plain --pager=none $argv
         
 end
